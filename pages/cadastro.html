@@ -1,0 +1,80 @@
+<!DOCTYPE html> <!-- // versão 5 -->
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/style.css" />
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form class="form size-form">
+    <h1 class="title">Faça seu cadastro</h1>
+
+    <div class="box margin-bottom24px">
+      <label for="name" class="label">Nome completo</label>
+      <input type="text" id="name" class="input" placeholder="Digite seu nome completo">
+    </div>
+
+    <div class="margin-bottom22px countryAndBirth">
+      <div class="box-dobble">
+        <label for="dateOfBirth" class="label">Data de nascimento</label>
+        <input type="date" name="" id="dateOfBirth" class="input" />
+      </div>
+
+      <div class="box-dobble">
+        <label class="label">Pais</label>
+        <select class="countrySelect input">
+          <option>Brasil</option>
+          <option>Argentina</option>
+          <option>Chile</option>
+          <option>Uruguai</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="">
+      <input type="radio" name="gender" id="female">
+      <label for="female">Feminino</label>
+
+      <input type="radio" name="gender" id="masc">
+      <label for="masc">masculino</label>
+
+      <input type="radio" name="gender" id="notDeclare">
+      <label id="notDeclare">Não declarar</label>
+    </div>
+
+    <div class="box margin-bottom22px">
+      <label for="email" class="label">E-mail</label>
+      <input type="email" id="email" class="input" required placeholder="Digite seu e-mail">
+    </div>
+
+    <div class="margin-bottom22px box">
+      <label for="password" class="label">Senha</label>
+      <input type="password" id="password" class="input" placeholder="Crie uma senha" required>
+    </div>
+
+    <div class="margin-bottom28px box">
+      <label for="confirmPassword" class="label">Confirme sua senha</label>
+      <input type="password" id="confirmPassword" class="input" placeholder="confirme sua senha" required>
+    </div>
+
+    <p class="paragraph">Aceito os
+      <a href="#" class="link">termos e condições</a>
+      e concordo com as
+      <a href="#" class="link">políticas de privacidade</a>
+      do Mais1Code.
+    </p>
+
+    <input type="submit" value="Cadastrar" class="button margin-bottom32">
+
+    <p class="paragraph">Já tenho conta na Mais1Code
+      <a href="#" class="link">Entre agora</a>
+    </p>
+  </form>
+</body>
+
+</html>

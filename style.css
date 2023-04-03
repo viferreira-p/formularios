@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --blue: #3f3d56;
+  --borderColor: #abb3a8;
+  --lightBlue: #1db9e0;
+  --black: #323730;
+  --lightGray: #abb3a8;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* 
+    tanto faz passar dessa forma ou so escrevendo font:
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px; */
+
+  font: normal 400 14px "Roboto", sans-serif;
+  color: var(--black);
+}
+
+button {
+  border: 0;
+}
+
+/* layout responsivo */
+.form {
+  max-width: 514px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 32px;
+}
+
+.size-form {
+  max-width: 396px;
+}
+
+.title {
+  color: var(--blue);
+  font-size: 37px;
+  font-weight: 700;
+
+  margin-bottom: 31px;
+}
+
+.box {
+  text-align: left;
+}
+
+.box-email {
+  margin-bottom: 39px;
+}
+
+.box-password {
+  margin-bottom: 26px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input {
+  width: 100%;
+  height: 47px;
+
+  border: 1px solid var(--lightGray);
+
+  padding: 16px 17px;
+}
+
+.input::placeholder {
+  color: var(--lightGray);
+}
+
+.button {
+  background: var(--blue);
+  width: 100%;
+  height: 47px;
+
+  color: var(--white);
+
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.box-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.margin-bottom22px {
+  margin-bottom: 22px;
+}
+
+.margin-bottom24px {
+  margin-bottom: 24px;
+}
+
+.margin-bottom28px {
+  margin-bottom: 28px;
+}
+
+.margin-bottom30 {
+  margin-bottom: 30px;
+}
+
+.wrapper-loggedin {
+  display: flex;
+}
+
+.wrapper {
+  width: 482px;
+  height: 374px;
+  padding: 25px 43px;
+  
+}
+
+#loggedin {
+  width: 18px;
+  height: 18px;
+
+  margin-right: 8px;
+}
+
+.link {
+  color: var(--lightBlue);
+  text-decoration: none;
+}
+
+.margin-bottom32 {
+  margin-bottom: 32px;
+}
+
+.paragraph {
+  width: 100%;
+  text-align: center;
+}
+
+.countryAndBirth {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.box-dobble {
+  width: 50%;
+}
+/* ::after,
+::before,
+::nth-child(),
+::not()
+::first-line */
